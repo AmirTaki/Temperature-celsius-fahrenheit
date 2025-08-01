@@ -7,3 +7,7 @@ const celsiusToFahrenheit = () => {
     fahrenheit.value = parseFloat(output.toFixed(2));
 }
 
+const fahrenheitToCelsius = () => {
+    const output = ((parseFloat(fahrenheit.value) - 32 ) * 5)  / 9;
+    celsius.value = parseFloat(output.toFixed(2))
+}
