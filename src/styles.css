@@ -21,4 +21,11 @@ body {
     border-radius: 8px;
     display: flex;
     justify-content: space-between
-};
+}
+.container {
+    width: 45%;
+}
+
+input{
+    
+}
